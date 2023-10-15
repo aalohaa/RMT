@@ -1,0 +1,44 @@
+@font-face {
+    font-family: senreg;
+    src: url(../fonts/Sen-Regular.ttf);
+}
+
+body {
+    background: url(../images/hd-wallpaper-gb52b95b3d_19205.png);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: senreg;
+    font-size: 1vw;
+}
+
+.navbar {
+    display: flex;
+    gap: 60px;
+}
+
+
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.change-language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.change-language .dropdown-lang {
+    cursor: pointer;
+}
